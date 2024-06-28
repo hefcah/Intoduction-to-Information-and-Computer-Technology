@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+   <meta charset="utf-8">
+   <title>Skardu Valley</title>
+<style>
+p{
+text-align: justify;
+padding-top: 30px;
+  padding-right: 300px;
+  padding-bottom: 30px;
+  padding-left: 300px;
+font-size: 18px;
+}
+nav{
+text-align: justify;
+
+  padding-right: 400px;
+  
+  padding-left: 500px;
+font-size: 18px;
+}
+h2{
+  padding-right: 300px;
+  padding-left: 300px;
+font-size: 28px;
+}
+h1{font-size: 46px;}
+body {
+  background-color: hsla(120,60%,70%,0.3);
+  }
+* {box-sizing: border-box;}
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+
+  position: relative;
+  margin: auto;
+}
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #717171;
+}
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 18px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+/* On smaller screens, decrease text size */
+@media only screen and width: 300px) {
+  .text {font-size: 11px}
+
+</style>
+</head>
+<body>
+<header>
+  <h1><center>Skardu Valley</center></h1>
+  <div class="slideshow-container">
+
+<div class="mySlides fade">
+ <a href="Skardu Images.html"><img src="images/satpara-lake-pakistan-skardu-gilgit-baltistan.jpg" style="width:100%" height= "350"></a>
+  <div class="text">Click Here</div>
+</div>
+
+<div class="mySlides fade">
+  
+  <a href="Skardu Images.html"><img src="images/skardu7.jpg" alt="skardu" style="width:100%" height= "350"></a>
+  <div class="text">Click Here</div>
+</div>
+
+
+  
+</div>
+<br>
+     
+ <div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+ 
+</header>
+
+<article>
+ <section>
+           <p>Here we go with the Gateway to the Karakorum mountain range on this list. Skardu valley lies in the Karakorum Range of Gilgit Baltistan in far northern Pakistan. Being my most favorite destination in the mountainous region of Pakistan, Skardu valley offers a lot to the wanderers that one can never expect and ever forget after visiting such places in northern areas of Pakistan. The road leading towards Skardu valley supposed to be the Eight wonder of World, as the way offer some breathtaking views along with the danger of huge landslide every time it receives rain. The valley has a rich culture and history with beautiful traditions. Likewise, culture and traditions are similar to Tibet. However, Skardu is the Baltistan in Gilgit Baltistan region, which is known as the Little Tibet.</center></p>
+              <h2>Best Places To Visit In Skardu</h2>
+              <p>Skardu valley has a lot to offer for the travelers to wander in the mountains to explore as many of the places has still not been visited. From the mighty mountains to the world highest desert, Skardu has everything for its lovers. Some of the best places to visit in Skardu valley are:</p>
+	       
+                 
+              <nav>
+                <ul>
+	           <li>Shangrila (Lower Kachura) Lake</li>
+	           <li>Upper Kachura Lake</li>
+                   <li>Kharpocho Fort</li>
+                   <li>Katpana Cold desert and Lake</li>
+                   <li>Shiger Cold Desert</li>
+                   <li>Shiger Valley and Fort</li>
+                   <li>Khaplu Valley and Palace</li>
+                   <li>Chaqchan Mosque</li>
+                   <li>Deosai National Park</li>
+                </ul> 
+              </nav>
+               <p>However as the Skardu valley is Gateway to Karakorum Mountains, it has many of the world most beautiful and astonishing trekking routes. Some most amazing ones are Snow Lake (Lukpe Lawo) trek, K2 Base Camp (Concordia) trek, Banak La trek and much more. Furthermore, Skardu host the K2 (8,611 m), the second-highest peak of world, Broad peak (8,047 m), Gasherbrum 1 (8,080 m), Gasherbrum 2 (8,035 m) and many more mighty and famous peaks. With all these mighty peaks in Skardu, it becomes the dream for the mountaineers to conquer. Every year thousands of mountaineers come to Pakistan to try climbing these mighty peaks in Skardu valley. So make sure to have a journey in this place to visit northern areas of Pakistan this summer.</p>
+		
+		  
+   </section>
+
+   
+</article>
+ 
+
+
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000);
+}
+</script>
+
+</body>
+</html>

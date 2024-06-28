@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+   <meta charset="utf-8">
+   <title>Naran Kaghan</title>
+
+<style>
+p{
+text-align: justify;
+padding-top: 30px;
+  padding-right: 300px;
+  padding-bottom: 30px;
+  padding-left: 300px;
+font-size: 18px;
+}
+
+
+h1{font-size: 46px;}
+body {
+  background-color: hsla(120,60%,70%,0.3);
+  }
+* {box-sizing: border-box;}
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+
+  position: relative;
+  margin: auto;
+}
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #717171;
+}
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 18px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+/* On smaller screens, decrease text size */
+@media only screen and width: 300px) {
+  .text {font-size: 11px}
+
+</style>
+
+</head>
+<body>
+<header>
+  <h1><center>Naran Kaghan</center></h1>
+  
+  <div class="slideshow-container">
+
+<div class="mySlides fade">
+ <a href="naran Images.html"><img src="images/naran8.jpg" style="width:100%" height= "350"></a>
+  <div class="text">Click Here</div>
+</div>
+
+<div class="mySlides fade">
+  
+  <a href="naran Images.html"><img src="images/Lake-Saif-UL-Mulook.jpg"  style="width:100%" height="350"/></a>
+  <div class="text">Click Here</div>
+</div>
+
+
+  
+</div>
+<br>
+     
+ <div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+  
+</header>
+<article>
+   <section>
+           <p>On the top of the list for the best places in northern areas of Pakistan, we have Naran Kaghan valley in 
+the Himalayan Mountains of Khyber Pakhtunkhwa Pakistan. Naran valleys stay open for few months to delivers some of 
+the marvelous views from nature. As the valley remains closed during winters from October till April due to heavy snowfall 
+in northern areas of Pakistan. As the road leading towards the valley gets block 
+due to avalanches coming from the mountains. However, Naran valley is one of the most famous traveling places in
+ northern areas of Pakistan amongst the local travelers. Every year, a huge number of visitors travel to this 
+site with their friends, families and loved ones to capture the best memories. The Valley surrounded by the lush 
+green mountains and deep alpine forest giving a beautiful impact on travelers about Himalayan valleys. In the valley of Naran, 
+there are a lot more to discover like the fairy tale Saif Ul Malook Lake, Hike towards the Ansoo Lake, Lulusar lake, 
+The Queen Dudipatsar Lake and lastly Babusar Top (4,173 m). SO make a plan this summers 2019 and get on the journey to explore 
+Naran valley among other best places in northern Pakistan.</p>
+              
+	   
+		
+   </section>
+   
+</article>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000);
+}
+</script>
+
+<footer>
+  <p><em>Copyright &copy; 2013 Share Your Travels</em></p>
+</footer>
+</body>
+</html>
